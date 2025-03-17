@@ -1,0 +1,16 @@
+Installation 
+
+1. First, install the Google Generative AI and streamlit
+        pip install google-generativeai streamlit
+(run this in terminal)
+
+2.  Create .streamlit Folder
+Run this command in your terminal (inside your project directory):
+        mkdir .streamlit
+
+3. Create secrets.toml File
+Inside .streamlit/, create a file named secrets.toml and add your Gemini API key like this:
+        GEMINI_API_KEY = "your-google-gemini-api-key"
+
+
+Note: You can generate you gemini key from google ai studio.
