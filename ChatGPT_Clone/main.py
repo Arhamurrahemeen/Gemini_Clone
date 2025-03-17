@@ -4,7 +4,7 @@ import json
 import os
 
 # Configure Gemini API
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key="AIzaSyAicOVimMvQevQy5oKBbyZ3-4ywK7IHnk8")
 
 st.title("Gemini Chatbot")
 
